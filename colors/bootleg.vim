@@ -1,7 +1,6 @@
 " Vim color file
 " Maintainer: bootleq <bootleq@gmail.com>
-" Last Change: 2010-10-05
-" Version: 0.3
+" Last Change: 2011-07-09
 "
 " Summary:
 " Modified from "slate" theme in 256 color term.
@@ -120,3 +119,8 @@ let colors_name = "bootleg"
   hi ShowMarksHLo ctermfg=110 guifg=#87afd7 gui=italic
   hi ShowMarksHLm ctermfg=199 guifg=#ff00af gui=italic
 " }}} ShowMarks
+
+" Indent Guide {{{
+  hi IndentGuidesOdd  guibg=#d78700 ctermbg=172
+  hi IndentGuidesEven guibg=#d75f5f ctermbg=167
+" }}} Indent Guide
