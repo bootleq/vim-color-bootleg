@@ -20,6 +20,7 @@ let colors_name = "bootleg"
   hi Normal       guifg=Gray           guibg=Black
   hi Cursor       guibg=#87ff00        guifg=Black
   hi CursorLine   cterm=NONE           ctermbg=234       guibg=#191919
+  hi CursorLineNr cterm=bold           ctermbg=234       guibg=#191919     gui=NONE
   hi CursorColumn cterm=NONE           ctermbg=236       guibg=#191919
   hi ColorColumn  ctermbg=Black        guibg=Black
   "hi CursorIM     guibg=#87d7ff        guifg=#000000
