@@ -66,7 +66,7 @@ let colors_name = "bootleg"
   hi Special    gui=NONE         guifg=#af5f00    ctermfg=brown
   hi Identifier guifg=#ff5050    ctermfg=red
   hi Function   guifg=#d75f5f    ctermfg=167
-  hi PreProc    guifg=#ff5050    ctermfg=Red
+  hi PreProc    guifg=#ff1090    ctermfg=197
   hi Include    guifg=#d78700    ctermfg=172
   hi Operator   guifg=Red        ctermfg=Red
   hi Define     guifg=gold       ctermfg=yellow
