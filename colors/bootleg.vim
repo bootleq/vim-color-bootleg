@@ -36,6 +36,8 @@ let colors_name = "bootleg"
   hi SpecialKey   guifg=darkgreen      ctermfg=darkgreen
   hi StatusLine   guibg=White          guifg=Black       gui=NONE          cterm=bold,reverse
   hi StatusLineNC guibg=#999999        guifg=Black       gui=NONE          cterm=reverse
+  hi StatusLine   guibg=White          guifg=Black       gui=NONE          cterm=bold,reverse ctermfg=246
+  hi StatusLineNC guibg=#999999        guifg=Black       gui=NONE          cterm=reverse      ctermfg=240
   hi User1        guibg=White          guifg=Blue        gui=NONE          ctermbg=Blue       cterm=bold,reverse
   hi Title        gui=NONE             guifg=gold        cterm=bold        ctermfg=yellow
   hi Search       ctermbg=22           ctermfg=White     guibg=#005500     guifg=White
