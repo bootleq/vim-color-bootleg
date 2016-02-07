@@ -102,10 +102,10 @@ let colors_name = "bootleg"
 " }}} Pmenu
 
 " Diff {{{
-  hi DiffAdd    ctermbg=19 guibg=#0000ca
-  hi DiffChange ctermbg=53 guibg=#5f005f
-  hi DiffDelete cterm=bold ctermfg=19    ctermbg=80    gui=NONE guibg=#5fd7d7
-  hi DiffText   cterm=bold ctermbg=88    guibg=#870000 gui=NONE
+  hi DiffAdd    cterm=NONE ctermbg=17 guibg=#0000ca
+  hi DiffChange cterm=bold ctermbg=53 guibg=#5f005f
+  hi DiffDelete cterm=bold ctermfg=12 ctermbg=16    gui=NONE guibg=#5fd7d7
+  hi DiffText   cterm=bold ctermbg=88 guibg=#870000 gui=NONE
 " }}} Diff
 
 " PHP {{{
