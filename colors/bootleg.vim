@@ -33,6 +33,7 @@ let colors_name = "bootleg"
   hi Folded       ctermfg=248          ctermbg=237       guifg=#cccccc     guibg=#444444
   hi FoldColumn   guibg=#cccccc        guifg=Blue        ctermfg=4         ctermbg=7
   hi NonText      gui=NONE             guifg=blue        cterm=bold        ctermfg=blue
+  hi EndOfBuffer  gui=NONE             guifg=#4a00ff     cterm=bold        ctermfg=57
   hi SpecialKey   guifg=darkgreen      ctermfg=darkgreen
   hi StatusLine   guibg=White          guifg=Black       gui=NONE          cterm=bold,reverse
   hi StatusLineNC guibg=#999999        guifg=Black       gui=NONE          cterm=reverse
