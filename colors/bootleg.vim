@@ -130,5 +130,5 @@ let colors_name = "bootleg"
 " }}} Indent Guide
 
 " highlightedyank {{{
-	hi HighlightedyankRegion ctermbg=88 guibg=#870000
+  hi HighlightedyankRegion cterm=bold gui=bold
 " }}} highlightedyank
