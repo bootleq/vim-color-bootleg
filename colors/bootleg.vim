@@ -27,11 +27,13 @@ let colors_name = "bootleg"
   hi Visual       cterm=NONE           ctermbg=236       gui=NONE          guibg=#19194f
   hi VisualNOS    cterm=bold,underline
   hi LineNr       guifg=#afaf00        ctermfg=3
-  hi SignColumn   ctermbg=Black        ctermfg=178       guibg=Black       guifg=#d7af00
+  hi SignColumn     ctermbg=Black      ctermfg=178       guibg=Black       guifg=#d7af00
+  hi CursorLineSign ctermbg=236        ctermfg=178       guibg=Black       guifg=#daaf04
   hi WildMenu     ctermfg=0            ctermbg=3
   hi VertSplit    gui=reverse          cterm=reverse
   hi Folded       ctermfg=248          ctermbg=237       guifg=#cccccc     guibg=#444444
-  hi FoldColumn   guibg=#cccccc        guifg=Blue        ctermfg=4         ctermbg=7
+  hi FoldColumn     guibg=#cccccc      guifg=Blue        ctermfg=4         ctermbg=7
+  hi CursorLineFold guibg=#cccccc      guifg=Black       ctermfg=Black     ctermbg=7
   hi NonText      gui=NONE             guifg=blue        cterm=bold        ctermfg=blue
   hi EndOfBuffer  gui=NONE             guifg=#4a00ff     cterm=bold        ctermfg=57
   hi SpecialKey   guifg=darkgreen      ctermfg=darkgreen
