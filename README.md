@@ -12,7 +12,7 @@ Modified from "slate" theme in 256 color term.
 Usage
 --
 
-1. Install with `:NeoBundle 'bootleq/vim-color-bootleg'`, or just put bootleg.vim to ~/.vim/colors
+1. Install `'bootleq/vim-color-bootleg'` with your plugin manager, or just put bootleg.vim to ~/.vim/colors
 2. In Vim, do `:colorscheme bootleg`
 
 
