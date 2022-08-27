@@ -43,8 +43,9 @@ let colors_name = "bootleg"
   hi StatusLineNC guibg=#999999        guifg=Black       gui=NONE          cterm=reverse      ctermfg=240
   hi User1        guibg=White          guifg=Blue        gui=NONE          ctermbg=Blue       cterm=bold,reverse
   hi Title        gui=NONE             guifg=gold        cterm=bold        ctermfg=yellow
-  hi Search       ctermbg=22           ctermfg=White     guibg=#005500     guifg=White
+  hi Search       ctermbg=22           ctermfg=252       guibg=#005500     guifg=White
   hi IncSearch    cterm=bold           ctermfg=124       ctermbg=40        gui=reverse        guifg=green        guibg=#87005f
+  hi CurSearch    cterm=bold           ctermfg=white     ctermbg=22        gui=reverse        guifg=green        guibg=#87005f
   hi MatchParen   ctermbg=135          ctermfg=236       guibg=#af5fff     guifg=Black
 
   hi SpellErrors  cterm=underline      ctermfg=84        ctermbg=95        gui=undercurl
