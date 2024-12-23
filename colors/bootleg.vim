@@ -1,6 +1,5 @@
 " Vim color file
 " Maintainer: bootleq <bootleq@gmail.com>
-" Last Change: 2011-07-11
 "
 " Summary:
 " Modified from "slate" theme in 256 color term.
