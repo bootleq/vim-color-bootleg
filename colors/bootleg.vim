@@ -70,6 +70,8 @@ let colors_name = "bootleg"
   hi Comment    ctermfg=103      guifg=#8787af
   hi Constant   guifg=#d75f00    ctermfg=brown
   hi Special    gui=NONE         guifg=#af5f00    ctermfg=brown
+  hi! link Delimiter Special
+
   hi Identifier guifg=#ff5050    ctermfg=red
   hi Function   guifg=#d75f5f    ctermfg=167
   hi PreProc    guifg=#ff1090    ctermfg=197
