@@ -20,13 +20,13 @@ let colors_name = "bootleg"
   hi Normal       guifg=Gray           guibg=Black
   hi Cursor       guibg=#87ff00        guifg=Black
   hi CursorLine   cterm=NONE           ctermbg=234       guibg=#191919
-  hi CursorLineNr cterm=bold           ctermbg=234       guibg=#191919     gui=NONE
+  hi CursorLineNr cterm=bold ctermfg=11 ctermbg=234      guibg=#191919     guifg=#e5dd98 gui=bold
   hi CursorColumn cterm=NONE           ctermbg=236       guibg=#191919
   hi ColorColumn  ctermbg=Black        guibg=Black
   "hi CursorIM     guibg=#87d7ff        guifg=#000000
-  hi Visual       cterm=NONE           ctermbg=236       gui=NONE          guibg=#19194f
+  hi Visual       cterm=NONE ctermfg=NONE ctermbg=236    gui=NONE          guibg=#303030
   hi VisualNOS    cterm=bold,underline
-  hi LineNr       guifg=#afaf00        ctermfg=3
+  hi LineNr       ctermfg=3            guifg=#c19c00     gui=NONE
   hi SignColumn     ctermbg=Black      ctermfg=178       guibg=Black       guifg=#d7af00
   hi CursorLineSign ctermbg=236        ctermfg=178       guibg=Black       guifg=#daaf04
   hi WildMenu     ctermfg=0            ctermbg=3
@@ -99,17 +99,20 @@ let colors_name = "bootleg"
 " }}} TabLine
 
 " Pmenu {{{
-  hi Pmenu      ctermbg=53    ctermfg=172   guibg=#5f005f guifg=#d78700
-  hi PmenuSel   ctermbg=234   ctermfg=220   guibg=#1c1c1c guifg=#ffd700
+  hi Pmenu      cterm=NONE ctermbg=53    ctermfg=172   guibg=#5f005f guifg=#d78700
+  hi PmenuSel   cterm=NONE ctermbg=234   ctermfg=220   guibg=#1c1c1c guifg=#ffd700
   hi PmenuSbar  ctermbg=Black guibg=Black
   hi PmenuThumb ctermbg=94    guibg=#875f00
+  " if has('nvim')
+  "   hi PmenuSel blend=20 ctermbg=234   ctermfg=220   guibg=#1c1c1c guifg=#ffd700
+  " endif
 " }}} Pmenu
 
 " Diff {{{
-  hi DiffAdd    cterm=NONE ctermbg=17  guibg=#0000ca
+  hi DiffAdd    cterm=NONE ctermfg=NONE ctermbg=17  guibg=#0000ca
   hi DiffChange cterm=bold ctermbg=53  guibg=#5f005f
   hi DiffDelete cterm=bold ctermfg=236 ctermbg=16    gui=NONE guibg=#5fd7d7
-  hi DiffText   cterm=bold ctermbg=88  guibg=#870000 gui=NONE
+  hi DiffText   term=reverse cterm=bold ctermfg=NONE ctermbg=88  guibg=#870000 gui=NONE
 " }}} Diff
 
 " PHP {{{
