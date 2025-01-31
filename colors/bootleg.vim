@@ -61,6 +61,7 @@ let colors_name = "bootleg"
   hi Question     gui=NONE             guifg=springgreen ctermfg=green
 
   hi NormalFloat ctermbg=89
+  hi DiagnosticFloatingError ctermfg=Gray
 
   hi qfSeparator  ctermfg=234          guifg=#191919
 " }}} UI colors
