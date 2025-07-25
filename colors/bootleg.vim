@@ -93,20 +93,13 @@ let colors_name = "bootleg"
 
 " TabLine {{{
   hi TabLine           cterm=underline ctermfg=15    ctermbg=242   gui=underline        guibg=#6c6c6c guifg=White
+  hi TabLineSel        ctermfg=white   ctermbg=0     gui=NONE
   hi TabLineNr         cterm=underline ctermbg=238   gui=underline guibg=#444444
+  hi TabLineNrSel      cterm=bold      ctermfg=45    ctermbg=0     guifg=#00d7ff
+  hi TabLineFill       cterm=NONE      ctermbg=250   guibg=#c8c8c8
   hi TabLineMore       cterm=underline ctermfg=White ctermbg=236   gui=underline        guifg=White   guibg=#303030
   hi TabLineSplitNr    cterm=underline ctermfg=148   ctermbg=240   gui=underline,italic guifg=#afd700 guibg=#6c6c6c
   hi TabLineSplitNrSel cterm=NONE      ctermfg=148   ctermbg=236   gui=NONE,italic      guifg=#afd700 guibg=#303030
-
-  if has('nvim-0.11')
-    hi TabLineSel   ctermfg=white ctermbg=0   gui=NONE
-    hi TabLineNrSel cterm=bold    ctermfg=45  ctermbg=0     guifg=#00d7ff
-    hi TabLineFill  cterm=NONE    ctermbg=250 guibg=#c8c8c8
-  else
-    hi TabLineSel   cterm=bold    gui=NONE    guifg=White
-    hi TabLineNrSel cterm=bold    ctermfg=45  guifg=#00d7ff
-    hi TabLineFill  cterm=reverse gui=reverse
-  endif
 " }}} TabLine
 
 " Pmenu {{{
