@@ -5,7 +5,7 @@ Modified from "slate" theme in 256 color term.
 
 - Dark background.
 - High contrast.
-- Mainly for cterm, not GUI or termguicolors.
+- Mainly for cterm.
 
 
 Usage
