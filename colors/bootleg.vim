@@ -131,10 +131,10 @@ let colors_name = "bootleg"
 " }}} TagList
 
 " ShowMarks {{{
-  hi ShowMarksHLl ctermfg=112 guifg=#87D700 gui=italic
-  hi ShowMarksHLu ctermfg=118 guifg=#87FF00 gui=italic
-  hi ShowMarksHLo ctermfg=110 guifg=#87AFD7 gui=italic
-  hi ShowMarksHLm ctermfg=199 guifg=#FF00AF gui=italic
+  hi ShowMarksHLl ctermfg=112 guifg=#87D700
+  hi ShowMarksHLu ctermfg=118 guifg=#87FF00
+  hi ShowMarksHLo ctermfg=110 guifg=#87AFD7
+  hi ShowMarksHLm ctermfg=199 guifg=#FF00AF
 " }}} ShowMarks
 
 " Indent Guide {{{
