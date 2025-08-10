@@ -106,13 +106,12 @@ let colors_name = "bootleg"
 " }}} TabLine
 
 " Pmenu {{{
-  hi Pmenu      cterm=NONE      ctermfg=172    ctermbg=53   gui=NONE        guifg=#D78700  guibg=#5F005F
-  hi PmenuSel   cterm=NONE      ctermfg=220    ctermbg=234  gui=NONE        guifg=#FFD700  guibg=#1C1C1C
-  hi PmenuSbar  ctermbg=Black                               guibg=#0C0C0C
-  hi PmenuThumb ctermbg=94                                  guibg=#875F00
-  " if has('nvim')
-  "   hi PmenuSel blend=20 ctermbg=234   ctermfg=220
-  " endif
+  hi Pmenu        cterm=NONE      ctermfg=172    ctermbg=53   gui=NONE        guifg=#EFAA00  guibg=#400030
+  hi PmenuKind    cterm=NONE      ctermfg=172    ctermbg=53   gui=NONE        guifg=#D78700  guibg=#400030
+  hi PmenuSel     cterm=NONE      ctermfg=220    ctermbg=234  gui=NONE        guifg=#FFFA44  guibg=#1C1C1C
+  hi PmenuKindSel cterm=NONE      ctermfg=220    ctermbg=234  gui=NONE        guifg=#D78700  guibg=#1C1C1C
+  hi PmenuSbar    ctermbg=Black                               guibg=#0C0C0C
+  hi PmenuThumb   ctermbg=94                                  guibg=#875F00
 " }}} Pmenu
 
 " Diff {{{
