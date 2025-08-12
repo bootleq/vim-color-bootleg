@@ -91,7 +91,9 @@ let colors_name = "bootleg"
 
   hi Underlined   cterm=underline      ctermfg=5  gui=underline    guifg=#B94FC9
 
-  hi @member      guifg=#C7A3E8
+  if has('nvim')
+    hi @member    guifg=#C7A3E8
+  endif
 " }}} Syntax highlighting
 
 " TabLine {{{
